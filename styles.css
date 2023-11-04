@@ -1,0 +1,113 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cor-de-fundo: #fbfbfb;
+    --cor-terciario: #000000;
+
+    --fonte-principal: 'Inter';
+}
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 400;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .content{
+    z-index: 1;
+    margin:  160px 400px -80px 50px;
+}
+.banner .content h1{
+    margin: 0 0 0 0;
+    padding: 0;
+    font-size: 3em;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+.banner .content h2 {
+    margin: 5px 0px 300px 0px;
+    padding: 0;
+    font-size: 1.50em;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+.container {
+    height: 100vh;
+    display: flex;
+flex-direction: row;
+}
+.loja{
+    /*Aqui fara parte da classe "container loja"(Arrumar)*/
+    align-items: center;
+    margin: 0 2em;
+}
+.social {
+    /*Aqui fara parte da classe "container social"(Arrumar)*/
+    align-items: center;
+    margin: 0 2em;
+}
+.loja__image{
+    width: 50%;
+    height: 50%;
+}
+.container__descricao{
+    padding: 2em;
+}
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--verde-titulo);
+    margin-bottom: 0.2em;
+}
+.descricao__texto{
+    color: var(--cinza-secundario);
+}
+
+
+
+
+
+
+.rodape {
+    background-color: var(--cinza-rodape);
+    text-align: center;
+    margin: 5em 0em 0em;
+}
+.rodape__logo{
+    max-width:80px;
+    max-height:80px;
+    width: auto;
+    height: auto;
+}
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+.lista__link a{
+    text-decoration: none;
+    color: var(--cinza-secundario);
+    margin-left: 1em;
+}
+.rodape__texto {
+    margin: 1em 0em 0em;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+/*Efeitos links  pseudo classe*/
+.lista__link a:hover{
+    color: var(--botao-verde-claro);
+}
+.lista__link a:active{
+    color: paleturquoise;
+}
