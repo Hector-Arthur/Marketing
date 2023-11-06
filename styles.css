@@ -1,20 +1,27 @@
 :root {
     --branco-principal: #FFFFFF;
-    --cor-de-fundo: #fbfbfb;
-    --cor-terciario: #000000;
-
-    --fonte-principal: 'Inter';
+    --cor-de-fundo: #f7f7f7;
+    --cor-header: #B08968;
+    --cor-docie: #;
+    --fonte-secundaria: 'inter';
+    --fonte-principal: 'Dancing Script';
 }
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte-secundaria);
     font-size: 20px;
     font-weight: 400;
 }
 * {
     margin: 0;
     padding: 0;
+}
+.section__doce{
+    background-color: var(--cor-header);
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 400;
 }
 .banner{
     width: 100%;
