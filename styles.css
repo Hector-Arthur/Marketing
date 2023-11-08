@@ -1,10 +1,10 @@
 :root {
     --branco-principal: #FFFFFF;
-    --cor-de-fundo: #f7f7f7;
-    --cor-header: #B08968;
+    --cor-de-fundo: #ccc;
+    --cor-header: #7F5539;
     --cor-docie: #;
-    --fonte-secundaria: 'inter';
-    --fonte-principal: 'Dancing Script';
+    --fonte-principal: 'inter';
+    --fonte-docie: 'Dancing Script';
 }
 body {
     background-color: var(--cor-de-fundo);
@@ -19,7 +19,7 @@ body {
 }
 .section__doce{
     background-color: var(--cor-header);
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte-docie);
     font-size: 20px;
     font-weight: 400;
 }
@@ -30,6 +30,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--cor-header);
+    color: var(--cor-de-fundo);
 }
 .banner .content{
     z-index: 1;
