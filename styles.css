@@ -1,8 +1,7 @@
 :root {
-    --branco-principal: #CCCCCC;
+    --branco-principal: #dDDDDD;
     --cor-de-fundo: #FFFFFF;
     --cor-header: #7F5539;
-    --cor-docie: #;
     --cor-bio: #2c8837;
     --fonte-principal: 'inter';
     --fonte-docie: 'Dancing Script';
@@ -10,7 +9,7 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-principal);
     font-size: 20px;
     font-weight: 400;
 }
@@ -43,6 +42,10 @@ p {
     align-items: center;
     background-color: var(--cor-header);
     color: var(--branco-principal);
+}
+.logo__docie{
+    border-radius: 50%;
+    max-width: 50%;
 }
 .banner_doces .content h1{
     margin: 0 0 0 0;
